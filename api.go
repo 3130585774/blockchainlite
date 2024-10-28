@@ -84,7 +84,7 @@ func (s *Server) Start(addr string) error {
 	r.HandleFunc("/blocks", s.AddBlockHandler).Methods("POST")
 	r.HandleFunc("/blocks/latest", s.GetLatestBlockHandler).Methods("GET")
 	r.HandleFunc("/blocks/history", s.GetBlockHistoryHandler).Methods("GET")
-
+	s.httpServer.Handler = r
 	s.httpServer.Addr = addr
 	log.Printf("Starting server on %s\n", addr)
 
