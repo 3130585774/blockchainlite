@@ -18,7 +18,7 @@
 package main
 
 import (
-	"github.com/3130585774/blockchainlite"
+	"github.com/LUG-HPI/blockchainlite"
 	"log"
 )
 

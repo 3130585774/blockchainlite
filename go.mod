@@ -1,4 +1,4 @@
-module github.com/3130585774/blockchainlite
+module github.com/LUG-HPI/blockchainlite
 
 go 1.23.2
 
