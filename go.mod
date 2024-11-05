@@ -1,4 +1,4 @@
-module github.com/LUG-HPI/blockchainlite
+module github.com/LUG-HUES/blockchainlite
 
 go 1.23.2
 
